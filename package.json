@@ -1,0 +1,77 @@
+{
+  "name": "canvas-writing-board",
+  "author": "BoBo(BoBoooooo159@gmail.com)",
+  "version": "1.0.0",
+  "description": "canvas手写板",
+  "main": "lib/canvas-writing-board.umd.min.js",
+  "private": false,
+  "license": "MIT",
+  "keyword": "canvas,手写,签字,画板",
+  "keywords": [
+    "canvas",
+    "手写",
+    "签字",
+    "画板"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BoBoooooo/canvas-writing-board"
+  },
+  "homepage": "https://github.com/BoBoooooo/canvas-writing-board#readme",
+  "bugs": {
+    "url": "https://github.com/BoBoooooo/canvas-writing-board/issues"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name canvas-writing-board --dest lib packages/index.js",
+    "deploy": "npm run lib && npm publish"
+  },
+  "files": [
+    "lib",
+    "assets"
+  ],
+  "dependencies": {
+    "canvas-writing-board": "^0.2.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.14.1",
+    "pressure": "^2.2.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "10.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

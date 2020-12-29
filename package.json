@@ -33,7 +33,7 @@
     "assets"
   ],
   "dependencies": {
-    "canvas-writing-board": "^0.2.0",
+    "canvas-writing-board": "^1.0.1",
     "core-js": "^2.6.5",
     "element-ui": "^2.14.1",
     "pressure": "^2.2.0",

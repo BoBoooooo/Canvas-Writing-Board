@@ -1,7 +1,7 @@
 {
   "name": "canvas-writing-board",
   "author": "BoBo(BoBoooooo159@gmail.com)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "canvas手写板",
   "main": "lib/canvas-writing-board.umd.min.js",
   "private": false,

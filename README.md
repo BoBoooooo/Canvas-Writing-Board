@@ -1,5 +1,8 @@
 # canvas-writing-board
 
+[在线demo](https://codepen.io/boboooooo/pen/wvzpmGJ)
+
+
 基于`canvas`的手写签字版,支持外接wacom等触控笔输入设备。
 
 使用Pressure.js库获取笔画压感,采用浏览器原生[pointEventer](https://developer.mozilla.org/zh-cn/docs/web/api/pointerevent)事件
